@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import logging
-import os
+import os # Used for logging the process ID in worker logs, and for graceful shutdown handling.
 import random
 import sys
 import time
